@@ -1,0 +1,13 @@
+{
+  "name": "pong500",
+  "description": "Let's play some PONG",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MrLane13/pong500",
+  "license": "",
+  "private": false,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "bootstrap": "3.3.x"
+  }
+}
