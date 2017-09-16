@@ -5,15 +5,10 @@ angular.
   module('pong500').
     component('gameCanvas', {
       template:
-        '<p>' +
-          'Hello there, world!' +
-        '</p>'
+
       controller: function GameCanvasController() {
-        this.blocks = [
-          {
-            height: '5',
-            width: '2',
-          }
-        ];
+        var canvas = self.getElementById('gameCanvasElement');
+        var ctx = canvas.getContext("2d");
+        var refreshCanvasInterval = 10;
       }
     });
